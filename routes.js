@@ -18,3 +18,17 @@ router.get('/', (req, res) => {
     }
   })
 })
+
+router.get('/pets/:id', (req, res) => {
+  const petId = Number(req.params.id)
+
+  utils.getViewData(filePath, (err, viewData) => {
+    if(err) { 
+      res.status(500).send(err.message)
+    } else {
+      const petData = viewData.pets.find(pet => pet.id === petId)
+      console.log(petData)
+      res.render('pet', petData)
+    }
+  })
+})
