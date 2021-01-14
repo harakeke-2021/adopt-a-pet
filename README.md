@@ -4,11 +4,11 @@ Team `let` project 1
 
 ## MVP
 
-1. Home Page - display All pets | **User Story 1:** *As a user, I want to see all the pets that are up for adoption*
+1. Home Page - **User Story 1:** *As a user, I want to see all the pets that are up for adoption*
 
-2. Individual Page - pet and details | **User Story 2:** *As a user, I want to click on a pet and see their name, breed, and back story*
+2. Individual Page - **User Story 2:** *As a user, I want to click on a pet and see their name, breed, and back story*
 
-3. New pet, adoption form - Add to All pets page | **User Story 3:** *As a user, I want to be able to put my pet up for adoption*
+3. New pet, adoption form - **User Story 3:** *As a user, I want to be able to put my pet up for adoption, and then see my pet on homepage*
 
 
 ## Stretch
