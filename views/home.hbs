@@ -1,4 +1,16 @@
-<h1>Here are our pups</h1>
+{{!-- <h1>Here are our pups</h1>
 
 
-{{!-- this will be placeholder images --}}
+this will be placeholder images --}}
+
+{{#each pets}}
+  <div class="container">
+    <a href="/pets/{{id}}">
+      <button class="button button-primary">
+        {{name}}
+        {{breed}}
+      </button>
+      <img src="{{image}}" alt="{{name}}">
+    </a>
+  </div>
+{{/each}}
