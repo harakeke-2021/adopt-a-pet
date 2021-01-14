@@ -1,8 +1,8 @@
 const fs = require('fs')
 
-// module.exports = {
-
-// }
+module.exports = {
+  getViewData
+}
 
 function getViewData(filePath, callback) {
     fs.readFile(filePath, 'utf8', (err, contents) => {
@@ -11,7 +11,7 @@ function getViewData(filePath, callback) {
       try {     
         const viewData = JSON.parse(contents) 
 
-        callback(viewData)
+        callback(null, viewData)
       } catch(parseError) {
         callback(new Error('Unable to parse file'))
       }
