@@ -13,9 +13,10 @@ Team `let` project 1
 
 ## Stretch
 
+0. Testing
 1. Split page displaying All pets in two - 1. Available and 2. Rehomed
 2. Landing Page (Home)
 3. Claim Pet (Button?)
 4. Update individual pet to claimed/adopted
 5. Page displaying Rehomed Pets - Rehomed pets have added details about 'new home story'
-6. Filter
+6. Filter (catergories?)
