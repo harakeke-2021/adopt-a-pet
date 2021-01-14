@@ -1,0 +1,82 @@
+{
+    "pets": [
+      {
+        "id": 1,
+        "name": "Joe",
+        "species": "dog,",
+        "sex": "Male",
+        "breed": "French Bulldog",
+        "age": "7",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/dog/dog1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Kola",
+        "species": "dog,",
+        "sex": "Female",
+        "breed": "Mixed Breed",
+        "age": "3",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/dog/dog2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Stella",
+        "species": "dog,",
+        "sex": "Female",
+        "breed": "Labrador",
+        "age": "11",
+        "isAdopted": true,
+        "owner": "",
+        "image": "/images/dog/dog3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Ladybug",
+        "species": "cat,",
+        "sex": "Female",
+        "breed": "Domestic short hair",
+        "age": "4",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/cat/cat4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Mr Fluffy",
+        "species": "cat,",
+        "sex": "male",
+        "breed": "Maine Coon",
+        "age": "5",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/cat/cat5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Henrietta",
+        "species": "chicken,",
+        "sex": "female",
+        "breed": "Leghorn",
+        "age": "2",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/cat/cat6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Rocket",
+        "species": "cow,",
+        "sex": "female",
+        "breed": "Highland",
+        "age": "12",
+        "isAdopted": false,
+        "owner": "",
+        "image": "/images/cows/cow7.jpg"
+      }
+    ]
+  }
+  
