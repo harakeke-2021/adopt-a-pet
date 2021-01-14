@@ -11,11 +11,11 @@
         "owner": "",
         "backstory": "Joe's previous owner unfortunately passed away so is looking for a new owner to provide him a forever home",
         "likes": "Enjoys running on the beach",
-        "image": "/images/dog/dog1.jpg"
+        "image": "/images/frenchBulldog.jpg"
       },
       {
         "id": 2,
-        "name": "Kola",
+        "name": "Kola",   
         "species": "dog,",
         "sex": "Female",
         "breed": "Mixed Breed",
@@ -24,7 +24,7 @@
         "owner": "",
         "backstory": "Kola was found abandoned but has lots of energy which she wants share with a new owner",
         "likes": "Enjoys playing fetch",
-        "image": "/images/dog/dog2.jpg"
+        "image": "/images/mixedBreed.jpg"
       },
       {
         "id": 3,
@@ -37,7 +37,7 @@
         "owner": "Charlotte A",
         "backstory": "Stella is an ex service-dog that requires a new home now that she is older",
         "likes": "Enjoys sleeping and belly rubs",
-        "image": "/images/dog/dog3.jpg"
+        "image": "/images/labrador.jpg"
       },
       {
         "id": 4,
@@ -50,7 +50,7 @@
         "owner": "",
         "backstory": "Ladybug was a stray kitten when found and has been waiting some time for someone to adopt her",
         "likes": "Enjoys having her fur groomed",
-        "image": "/images/cat/cat4.jpg"
+        "image": "/images/ladyBug.jpg"
       },
       {
         "id": 5,
@@ -63,7 +63,7 @@
         "owner": "",
         "backstory": "Mr Fluffy became too big for his owner to take care of and now is looking for a new home",
         "likes": "Enjoys having a good stretch",
-        "image": "/images/cat/cat5.jpg"
+        "image": "/images/mrFluffy.jpg"
       },
       {
         "id": 6,
@@ -76,7 +76,7 @@
         "owner": "",
         "backstory": "Henrietta was on her own for most of her life and is looking to join a new flock ",
         "likes": "Enjoys hanging out on her chicken swing",
-        "image": "/images/cat/cat6.jpg"
+        "image": "/images/chicken.jpg"
       },
       {
         "id": 7,
@@ -89,7 +89,7 @@
         "owner": "",
         "backstory": "Rocket is looking for a new paddock as her old one was sold to build houses on",
         "likes": "Enjoys having scratches behind her ears",
-        "image": "/images/cows/cow7.jpg"
+        "image": "/images/cow.jpg"
       }
     ]
   }
