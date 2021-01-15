@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Joe",
-        "species": "dog,",
+        "species": "Dog",
         "sex": "Male",
         "breed": "French Bulldog",
         "age": "7",
@@ -16,7 +16,7 @@
       {
         "id": 2,
         "name": "Kola",   
-        "species": "dog,",
+        "species": "Dog",
         "sex": "Female",
         "breed": "Mixed Breed",
         "age": "3",
@@ -29,7 +29,7 @@
       {
         "id": 3,
         "name": "Stella",
-        "species": "dog,",
+        "species": "Dog",
         "sex": "Female",
         "breed": "Labrador",
         "age": "11",
@@ -42,7 +42,7 @@
       {
         "id": 4,
         "name": "Ladybug",
-        "species": "cat,",
+        "species": "Cat",
         "sex": "Female",
         "breed": "Domestic short hair",
         "age": "4",
@@ -55,8 +55,8 @@
       {
         "id": 5,
         "name": "Mr Fluffy",
-        "species": "cat,",
-        "sex": "male",
+        "species": "Cat",
+        "sex": "Male",
         "breed": "Maine Coon",
         "age": "5",
         "isAdopted": false,
@@ -68,8 +68,8 @@
       {
         "id": 6,
         "name": "Henrietta",
-        "species": "chicken,",
-        "sex": "female",
+        "species": "Chicken",
+        "sex": "Female",
         "breed": "Leghorn",
         "age": "2",
         "isAdopted": false,
@@ -81,8 +81,8 @@
       {
         "id": 7,
         "name": "Rocket",
-        "species": "cow,",
-        "sex": "female",
+        "species": "Cow",
+        "sex": "Female",
         "breed": "Highland",
         "age": "12",
         "isAdopted": false,
