@@ -20,6 +20,9 @@ function getViewData(filePath, callback) {
 }
 
 
-function writeNewData(filePath, petData) {
-  fs.writeFile(filePath, petData, 'utf8', () => {})
+function writeNewData(filePath, petData, callback) {
+  fs.writeFile(filePath, petData, 'utf8', (err, contents) => {
+    if(err) return callback(new Error('Unable to write file'))
+    callback(null, contents)
+  })
 }
