@@ -2,9 +2,9 @@
 
 
 this will be placeholder images --}}
-
+<div class="containerFlex">
 {{#each pets}}
-  <div class="container">
+<div class="pet">
     <a href="/pets/{{id}}">
       <button class="button button-primary">
         {{name}}
@@ -12,5 +12,10 @@ this will be placeholder images --}}
       </button>
       <img src="{{image}}" alt="{{name}}">
     </a>
-  </div>
+</div>
 {{/each}}
+</div>
+
+<button>
+<a href="#">Put your pet up for adoption</a>
+</button>
