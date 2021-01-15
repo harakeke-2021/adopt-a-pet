@@ -1,23 +1,15 @@
 img {
-  width: 200px; 
-  height: 200px;
-  object-fit: cover;
-  object-position: 20% 10%;
-
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.containerFlex {
+/* .containerFlex {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
-}
-
-.pet {
-align-self: center;
-justify-content: center;
-padding: 2em;
-}
+} */
 
 button {
   align-self: center;
