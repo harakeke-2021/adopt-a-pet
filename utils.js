@@ -1,7 +1,8 @@
 const fs = require('fs')
 
 module.exports = {
-  getViewData
+  getViewData,
+  writeNewData
 }
 
 function getViewData(filePath, callback) {
@@ -16,4 +17,9 @@ function getViewData(filePath, callback) {
         callback(new Error('Unable to parse file'))
       }
     })
+}
+
+
+function writeNewData(filePath, petData) {
+  fs.writeFile(filePath, petData, 'utf8', () => {})
 }
