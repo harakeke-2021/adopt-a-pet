@@ -7,6 +7,10 @@ img {
   height: 500px;
 }
 
+body{
+  font-family: 'Ubuntu', serif;
+  color: black;
+}
 /* .containerFlex {
   display: flex;
   flex-direction: row;
