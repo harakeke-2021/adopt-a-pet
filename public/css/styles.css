@@ -21,3 +21,7 @@ body{
 button {
   align-self: center;
 }
+
+.img-landing {
+  width: 100%;
+}

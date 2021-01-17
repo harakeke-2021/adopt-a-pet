@@ -11,12 +11,12 @@ router.use(express.urlencoded({
   extended: false
 }))
 
-router.get('/', (req, res) => {
+router.get('/pets', (req, res) => {
   utils.getViewData((err, viewData) => {
     if(err) { 
       res.status(500).send(err.message)
     } else {
-      res.render('home', viewData)
+      res.render('pets', viewData)
     }
   })
 })
@@ -45,4 +45,8 @@ router.post('/new', (req, res) => {
       if(err) return res.status(500).send(err.message)
       res.redirect('/')
     })
+})
+
+router.get('/', (req, res) => {
+  res.render('landing')
 })
